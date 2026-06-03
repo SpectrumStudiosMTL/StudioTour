@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-photo360",
-      "name": "photo360",
+      "name": "Green Screen Studio",
       "levels": [
         {
           "tileSize": 256,
@@ -49,7 +49,7 @@ var APP_DATA = {
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
-    "fullscreenButton": false,
+    "fullscreenButton": true,
     "viewControlButtons": false
   }
 };

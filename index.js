@@ -69,7 +69,6 @@
 
   // Initialize viewer.
   var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
-  {
   controls: { 
     scrollZoom: false 
   }

@@ -837,12 +837,13 @@ body.view-control-buttons .viewControlButton {
   background-color: #121A34 !important; /* Replaces the default grey color */
 }
 
-/* Change the font style, color, and size of the pano title text */
-.sceneName .text {
-  font-family: "Oswald", Arial, sans-serif !important; /* Your chosen font */
+/* FORCE TEXT CHANGES ON ALL ELEMENTS INSIDE THE TOP BAR */
+.sceneName, 
+.sceneName .text, 
+.sceneName .title {
   color: #FDD55D !important;            /* Font color (white) */
-  font-size: 20px !important;           /* Size of the text */
-  font-weight: bold !important;         /* Makes text stand out */
-  text-transform: uppercase !important; /* Forces the text to be all capital letters */
-  letter-spacing: 1px !important;       /* Optional: Adds space between capitals for better readability */
+  font-family: Arial, Helvetica, sans-serif !important; /* Forces standard clean font */
+  text-transform: uppercase !important; /* FORCES ALL CAPS */
+  font-weight: bold !important;         /* Bold styling */
+  letter-spacing: 2px !important;       /* Space out capital letters cleanly */
 }

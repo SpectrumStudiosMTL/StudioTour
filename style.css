@@ -832,10 +832,15 @@ body.view-control-buttons .viewControlButton {
 .info-hotspot-icon {
   background-color: #FDD55D !important; /* Change this hex code to your preferred color */
 }
-/* Change the look of the pop-up text panel when opened */
-.info-hotspot-text {
-  background-color: #121A34 !important; /* Changes panel background (e.g., solid white) */
-  color: #333333 !important;            /* Changes the text color inside the panel to dark gray */
-  border: 2px solid #ff5733 !important; /* Optional: Adds a colored border around the panel */
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.2) !important; /* Optional: Adds a soft shadow behind it */
+/* Change the background color of the top pano identification bar */
+.sceneName {
+  background-color: #121A34 !important; /* Replaces the default grey color */
+}
+
+/* Change the font style, color, and size of the pano title text */
+.sceneName .text {
+  font-family: "Helvetica Neue", Arial, sans-serif !important; /* Your chosen font */
+  color: #ffffff !important;            /* Font color (white) */
+  font-size: 18px !important;           /* Size of the text */
+  font-weight: bold !important;         /* Makes text stand out */
 }

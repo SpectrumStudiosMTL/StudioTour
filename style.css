@@ -832,3 +832,10 @@ body.view-control-buttons .viewControlButton {
 .info-hotspot-icon {
   background-color: #FDD55D !important; /* Change this hex code to your preferred color */
 }
+/* Change the look of the pop-up text panel when opened */
+.info-hotspot-text {
+  background-color: #121A34 !important; /* Changes panel background (e.g., solid white) */
+  color: #333333 !important;            /* Changes the text color inside the panel to dark gray */
+  border: 2px solid #ff5733 !important; /* Optional: Adds a colored border around the panel */
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2) !important; /* Optional: Adds a soft shadow behind it */
+}

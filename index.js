@@ -63,14 +63,13 @@
   // Viewer options.
   var viewerOpts = {
     controls: {
-      mouseViewMode: data.settings.mouseViewMode
+      mouseViewMode: data.settings.mouseViewMode,
       scrollZoom: false
     }
   };
 
   // Initialize viewer.
   var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
-  
   }
 
   // Create scenes.

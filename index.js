@@ -69,7 +69,7 @@
   };
 
   // Initialize viewer.
-  var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
+  var viewer = new Marzipano.Viewer(panoElement, viewerOpts); 
   
 
   // Create scenes.

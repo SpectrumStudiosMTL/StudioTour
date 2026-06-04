@@ -829,3 +829,6 @@ body.view-control-buttons .viewControlButton {
   margin-left: 105px;
 }
 
+.info-hotspot-icon {
+  background-color: #FDD55D !important; /* Change this hex code to your preferred color */
+}

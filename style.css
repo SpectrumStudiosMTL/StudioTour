@@ -834,7 +834,7 @@ body.view-control-buttons .viewControlButton {
 }
 /* Change the background color of the top pano identification bar */
 .sceneName {
-  background-color: #121A34 !important; /* Replaces the default grey color */
+  background-color: rgba(253, 213, 93, 0.6) !important; /* Replaces the default grey color */
 }
 /* FORCE TEXT UPDATES ON THE TOP SCENE TITLE BAR */
 #titleBar .sceneName, 

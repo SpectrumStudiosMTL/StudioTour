@@ -840,7 +840,7 @@ body.view-control-buttons .viewControlButton {
 #titleBar .sceneName, 
 #titleBar .sceneName * {
   color: #FDD55D !important;            /* Font color (e.g., white) */
-  font-family: Arial, sans-serif !important; /* Font type */
+  font-family: Helvetica, Arial, sans-serif !important; /* Font type */
   text-transform: uppercase !important; /* Forces ALL CAPITAL letters */
   font-weight: bold !important;         /* Makes text bold */
   letter-spacing: 2px !important;       /* Adds readable spacing between capitals */

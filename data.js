@@ -37,10 +37,10 @@ var APP_DATA = {
           "text": "GVM LED PANELS"
         },
         {
-          "yaw": 1.7429963671727453,
-          "pitch": 0.3515024958778614,
-          "title": "c-stands",
-          "text": "3 available with rental"
+          "yaw": 0.12,
+          "pitch": -0.05,
+          "title": "20260507_121010.jpg",
+          "text": "Here is some text accompanying the image <br> <img src='20260507_121010.jpg' alt='Popup Image'>"
         }
       ]
     }
